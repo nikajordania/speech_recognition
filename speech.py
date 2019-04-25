@@ -5,7 +5,7 @@ microphone = sr.Microphone()
 
 def runProgramm(text):
     if str(text) == "google":
-        os.system("start C://users/user/Desktop/google.lnk")
+        os.system("start C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
 
 try:
     while True:
